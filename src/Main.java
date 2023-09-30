@@ -1,17 +1,33 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+class Assignment{
+    public int a;
+    public Assignment(int number){
+        this.a = number;
+    }
+}
+class Arguments{
+    public String name;
+
+    public Arguments(String name){
+        this.name = name;
+    }
+
+}
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+        Assignment as1 = new Assignment(12);
+        Assignment as2 = as1;
+        Assignment as3 = as2;
+        System.out.println(as3.a);
+        as2.a = 10;
+        System.out.println(as1.a);
+        as3.a = 13;
+        System.out.println(as1.a);
+        Arguments arg = new Arguments("Denys");
+        System.out.println(arg.name);
+        methodWithArguments(arg);
+        System.out.println(arg.name);
+    }
+    public static void methodWithArguments(Arguments arg){
+        arg.name = "Petro";
     }
 }
