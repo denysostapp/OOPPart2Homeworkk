@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d43d414-b49c-4b96-b806-7048f0bbcc6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPPart2Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2/Players.java" afterDir="false" />
+    <list default="true" id="8d43d414-b49c-4b96-b806-7048f0bbcc6c" name="Changes" comment=")">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +55,24 @@
       <option name="presentableId" value="Default" />
       <updated>1695809533587</updated>
       <workItem from="1695809536456" duration="2278000" />
-      <workItem from="1696014634716" duration="14002000" />
+      <workItem from="1696014634716" duration="20103000" />
     </task>
+    <task id="LOCAL-00001" summary=")">
+      <option name="closed" value="true" />
+      <created>1696078579004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696078579004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=")" />
+    <option name="LAST_COMMIT_MESSAGE" value=")" />
   </component>
 </project>

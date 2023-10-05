@@ -67,20 +67,21 @@ class Collection {
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Welcome to the players database!");
-        System.out.println("Choose the option to proceed:");
-        System.out.println("1 - add player to collection" + "\n2 - print all players" + "\n3 - search players by team");
-        System.out.println("0 - exit program");
-        String answer = in.nextLine();
+        while (true) {
+            System.out.println("Welcome to the players database!");
+            System.out.println("Choose the option to proceed:");
+            System.out.println("1 - add player to collection" + "\n2 - print all players" + "\n3 - search players by team");
+            System.out.println("0 - exit program");
+            String answer = in.nextLine();
 
-        Collection FootballCollection = new Collection();
-        Players player1 = new Players("Alexandr Zinchenko", 42000000, 1996, "Arsenal");
-        Players player2 = new Players("Gabriel Jesus", 75000000, 1997, "Arsenal");
-        Players player3 = new Players("Mykhaylo Mudryk", 50000000, 2001, "Chelsea FC");
+            Collection FootballCollection = new Collection();
+            Players player1 = new Players("Alexandr Zinchenko", 42000000, 1996, "Arsenal");
+            Players player2 = new Players("Gabriel Jesus", 75000000, 1997, "Arsenal");
+            Players player3 = new Players("Mykhaylo Mudryk", 50000000, 2001, "Chelsea FC");
 
-        FootballCollection.addPlayer(player1);
-        FootballCollection.addPlayer(player2);
-        FootballCollection.addPlayer(player3);
+            FootballCollection.addPlayer(player1);
+            FootballCollection.addPlayer(player2);
+            FootballCollection.addPlayer(player3);
             switch (answer) {
                 case "1":
                     addPlayer(FootballCollection, in);
@@ -96,7 +97,7 @@ public class Main {
                 default:
                     System.out.println("Invalid choice. Try again");
             }
-
+        }
 
 
 //        FootballCollection.printPlayer(0);
