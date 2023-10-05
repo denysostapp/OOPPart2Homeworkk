@@ -52,7 +52,7 @@ class Collection {
         for (int i = 0; i < players.size(); i++) {
             Players player = players.get(i);
             if (player.team.equals(search)) {
-                System.out.println("Matching player found:");
+                System.out.println("Matching player found: ");
                 System.out.println(player.getDescription());
                 System.out.println();
                 match = true;
